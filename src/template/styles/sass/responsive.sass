@@ -113,6 +113,36 @@
 	.container
 		width: 750px
 
+	.popup
+		&_tariff
+			width: 95%
+			.popup
+				
+				&__left, &__right
+					float: none
+					width: 100%
+					min-height: 1px
+				&__left
+					color: #000
+					background: none
+					text-shadow: none
+					font-size: 32px
+					font-family: inherit
+					line-height: normal
+					text-align: center
+					padding: 30px 40px
+					br
+						display: none
+				&__right
+					padding-top: 0
+					padding-left: 15px
+					padding-right: 15px
+					padding-bottom: 30px
+					text-align: center
+	.form
+		text-align: center
+		&__textarea
+			margin-bottom: 20px
 	.panel
 		&__nav
 			margin-left: 28px
@@ -174,6 +204,9 @@
 	.footer
 		&__list
 			padding-bottom: 15px
+			.icon-coctail-white
+				position: relative
+				right: 5px
 		&__item
 			width: 50%
 			margin-bottom: 25px
@@ -182,5 +215,253 @@
 			padding-right: 0
 			
 @media screen and (max-width: 767px)
+	img
+		max-width: 100%
+	.popup
+		&_order
+			width: 95%
 	.container
 		width: 100%
+
+	.mobile-btn
+		position: relative
+		z-index: 10
+		display: block
+		margin-top: 15px
+		margin-left: 20%
+	.panel
+		padding-bottom: 14px
+		&__nav
+			z-index: 1
+			position: fixed
+			right: 0
+			top: 0
+			background: #210335
+			width: 280px
+			height: 100%
+			padding-top: 0
+			transform: translateX(100%)
+			transition: .3s
+			&_toggle
+				transform: translateX(0%)
+			a
+				font-size: 20px
+				padding: 15px !important
+				color: white !important
+				&:hover
+					background: #f36
+			li
+				margin-right: 0
+			> ul
+				ul
+					display: none !important
+				> li
+					> ul
+						position: relative
+						display: block !important
+						margin-left: 0
+						width: auto
+						background: none
+						padding-top: 0
+						padding-bottom: 0
+						// margin-bottom: 15px
+						a
+							padding: 10px 30px !important
+						&:before
+							display: none
+						> ul
+							display: none !important
+
+			li
+				display: block
+
+	.banner
+		&_main
+			min-height: 1px
+			.banner
+				&__title
+					padding-top: 50px
+					padding-bottom: 50px
+					text-align: center
+		&_service
+			padding-top: 25px
+			padding-bottom: 30px
+			text-align: center
+			.banner
+				&__breadcrumbs
+					margin-bottom: 10px
+				&__title
+					margin-bottom: 15px
+				&__text
+					max-width: 100%
+					margin-bottom: 25px
+					text-align: left
+		&_gallery
+			display: none
+		&__title
+			font-size: 60px
+			line-height: 60px
+			text-align: center
+	.title
+		font-size: 32px
+		line-height: 40px
+		&-labels, &-bg
+			span
+				padding: 0
+				background: none
+				&:before, &:after
+					display: none
+
+	.tariffs
+		padding-top: 25px
+		&__title
+			margin-bottom: 25px
+		&__wrap
+			padding-top: 10px
+			margin: 10px
+		&__button
+			border-radius: 0
+
+
+	.bar-list
+		&__title
+			color: #f36
+		&__list
+			li
+				width: 100%
+
+	.sub, .consultation
+		&__wrap
+			width: 100%
+		&__title
+			font-size: 32px
+			line-height: 40px
+		&__input, &__button, &__desc
+			width: 100%
+		&__desc
+			&-item
+				width: 100%
+				text-align: left !important
+				margin-bottom: 10px
+				&:last-of-type
+					margin-bottom: 0
+
+	.button
+		border-bottom: none
+		&_big
+			font-size: 24px
+			min-width: 1px
+			padding: 15px 15px
+		&_normal
+			padding-top: 13px
+
+
+	.service
+		&__content
+			padding-top: 30px
+			padding-bottom: 10px
+		&__nav
+			display: none
+			margin-left: -15px
+			margin-right: -15px
+			width: auto
+			&-list
+				margin-left: (28px + 15px)
+			&-item
+				width: 100%
+		&__text
+			margin-bottom: 30px
+		&__desc
+			margin-bottom: 20px
+			&-title
+				margin-bottom: 15px
+			&-list
+				li
+					margin-bottom: 15px
+					padding-left: 45px
+					&:before
+						left: 0
+			&-item
+				width: 100%
+				margin-bottom: 15px
+
+	.advantages
+		&__title
+			margin-bottom: 20px
+		&__list
+			background: none
+			min-height: 1px
+
+		&__item
+			text-align: left !important
+			width: 100% !important
+			height: auto !important
+			padding-right: 0 !important
+			padding-left: 0 !important
+			margin-bottom: 20px !important
+			&:first-of-type, &:last-of-type
+				text-align: left !important
+		&__text
+			max-width: 100% !important
+
+	.gallery
+		padding-top: 15px
+		padding-bottom: 30px
+		&__list
+			margin-bottom: 15px
+		&__title
+			margin-bottom: 20px
+			span, p
+				display: inline
+				vertical-align: middle
+
+	.pagination
+		a
+			font-size: 20px
+			padding-left: 7px
+			padding-right: 7px
+		.icon
+			top: 0
+	.page
+		&__title
+			padding-bottom: 20px
+	.footer
+		&__item
+			width: 50%
+		&__button
+			border-bottom: 1px solid white
+	.popup_tariff
+		.popup__left
+			font-size: 26px
+			
+@media screen and (max-width: 610px)
+	.mobile-btn
+		margin-left: 10%
+	.panel
+
+@media screen and (max-width: 510px)
+	.panel
+		&__call
+			text-align: center
+			width: 100%
+			padding-top: 8px
+	.footer
+		&__bottom
+			padding-top: 20px
+			padding-bottom: 20px
+		&__item
+			width: 100%
+		&__address
+			margin-bottom: 10px
+		&__copy, &__address
+			float: none
+			width: 100%
+
+	.popup
+		&_callback, &_thanks, &_sub
+			width: 95%
+
+@media screen and (max-width: 470px)
+	.work
+		&__item
+			width: 100%

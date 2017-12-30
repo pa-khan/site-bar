@@ -934,3 +934,32 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.mobile-btn {
+  display: none;
+  width: 45px;
+  height: 32px;
+  float: right;
+  cursor: pointer; }
+  .mobile-btn span {
+    position: relative;
+    display: block;
+    height: 4px;
+    margin-bottom: 10px;
+    background: white;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .mobile-btn span:last-of-type {
+      margin-bottom: 0; }
+  .mobile-btn_toggle span:nth-of-type(1) {
+    top: 14px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .mobile-btn_toggle span:nth-of-type(2) {
+    opacity: 0; }
+  .mobile-btn_toggle span:nth-of-type(3) {
+    top: -14px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }

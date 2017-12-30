@@ -844,3 +844,30 @@ img
 	background-position: center
 	background-size: cover
 	background-repeat: no-repeat
+
+
+.mobile-btn
+	display: none
+	width: 45px
+	height: 32px
+	float: right
+	cursor: pointer
+	span
+		position: relative
+		display: block
+		height: 4px
+		margin-bottom: 10px
+		background: white
+		transition: .3s
+		&:last-of-type
+			margin-bottom: 0
+	&_toggle
+		span
+			&:nth-of-type(1)
+				top: 14px
+				transform: rotate(45deg)
+			&:nth-of-type(2)
+				opacity: 0
+			&:nth-of-type(3)
+				top: -14px
+				transform: rotate(-45deg)
