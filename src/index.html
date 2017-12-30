@@ -22,38 +22,66 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="popup popup_silver" id="popup-silver">
+	<div class="popup popup_tariff" id="popup-silver">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
 		<div class="popup__wrap row">
-			<div class="popup__left col">Заказать тариф</div>
-			<div class="popup__right col">
-				<input type="text" class="popup__input input input_border" placeholder="Ваше имя">
-				<input type="text" class="popup__input input input_border" placeholder="Ваш телефон">
-				<textarea class="popup__textarea textarea" placeholder="Ваше сообщение"></textarea>
-				<button class="popup__button button button_big">Заказать</button>
+			<div class="popup__left bg col">Заказать <br>тариф <br>Серебро</div>
+			<div class="popup__right form col">
+				<input type="text" class="form__input input input_border" placeholder="Ваше имя">
+				<input type="text" class="form__input input input_border" placeholder="Ваш телефон">
+				<textarea class="form__textarea textarea" placeholder="Ваше сообщение"></textarea>
+				<button class="form__button button button_big">Заказать</button>
 			</div>
 		</div>
 	</div>
-	<div class="popup popup_gold" id="popup-gold">
+	<div class="popup popup_tariff" id="popup-gold">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
 		<div class="popup__wrap row">
-			<div class="popup__left col">Заказать тариф Золотой</div>
-			<div class="popup__right col">
-				<input type="text" class="popup__input input input_border" placeholder="Ваше имя">
-				<input type="text" class="popup__input input input_border" placeholder="Ваш телефон">
-				<textarea class="popup__textarea textarea" placeholder="Ваше сообщение"></textarea>
-				<button class="popup__button button button_big">Заказать</button>
+			<div class="popup__left bg col">Заказать <br>тариф <br>Золотой</div>
+			<div class="popup__right form col">
+				<input type="text" class="form__input input input_border" placeholder="Ваше имя">
+				<input type="text" class="form__input input input_border" placeholder="Ваш телефон">
+				<textarea class="form__textarea textarea" placeholder="Ваше сообщение"></textarea>
+				<button class="form__button button button_big">Заказать</button>
 			</div>
 		</div>
 	</div>
-	<div class="popup popup_platinum" id="popup-platinum">
+	<div class="popup popup_tariff" id="popup-platinum">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
 		<div class="popup__wrap row">
-			<div class="popup__left col">Заказать тариф </div>
-			<div class="popup__right col">
-				<input type="text" class="popup__input input input_border" placeholder="Ваше имя">
-				<input type="text" class="popup__input input input_border" placeholder="Ваш телефон">
-				<textarea class="popup__textarea textarea" placeholder="Ваше сообщение"></textarea>
-				<button class="popup__button button button_big">Заказать</button>
+			<div class="popup__left bg col">Заказать <br>тариф <br>Платинум</div>
+			<div class="popup__right form col">
+				<input type="text" class="form__input input input_border" placeholder="Ваше имя">
+				<input type="text" class="form__input input input_border" placeholder="Ваш телефон">
+				<textarea class="form__textarea textarea" placeholder="Ваше сообщение"></textarea>
+				<button class="form__button button button_big">Заказать</button>
 			</div>
 		</div>
+	</div>
+	<div class="popup popup_callback" id="popup-callback">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
+		<div class="popup__form form">
+			<input type="text" class="form__input input input_border" placeholder="Ваше имя">
+			<input type="text" class="form__input input input_border" placeholder="Ваш телефон">
+			<button class="form__button button button_big">Заказать</button>
+		</div>
+	</div>
+	<div class="popup popup_order" id="popup-order">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
+		<div class="popup__form form">
+			<input type="text" class="form__input input input_border" placeholder="Ваше имя">
+			<input type="text" class="form__input input input_border" placeholder="Ваш телефон">
+			<textarea class="form__textarea textarea" placeholder="Ваше сообщение"></textarea>
+			<button class="form__button button button_big">Заказать</button>
+		</div>
+	</div>
+	<div class="popup popup_sub" id="popup-sub">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
+		<div class="popup__title">Подписка успешно оформлена!</div>
+	</div>
+	<div class="popup popup_thanks" id="popup-thanks">
+		<div class="popup__close"><i class="icon icon-cross-button" data-fancybox-close></i></div>
+		<div class="popup__title">Ваша заявка успешно отправленна!</div>
 	</div>
 	<header class="header">
 		<div class="panel">
@@ -87,7 +115,7 @@
 				</div>
 				<div class="panel__call right col">
 					<div class="panel__phone"><a href="tel:+74953746162">+7 (495) <span>374-61-62</span></a></div>
-					<a data-fancybox data-src="#popup-order" href="javascript:;" class="panel__button button button_small">Обратный звонок</a>
+					<a data-fancybox data-src="#popup-callback" href="javascript:;" class="panel__button button button_small">Обратный звонок</a>
 				</div>
 			</div>
 		</div>
@@ -105,12 +133,12 @@
 						<ul>
 							<li><a href="">Главная</a></li>
 							<li><a href="">Все услуги</a></li>
-							<li><a href="">Глинтвейн-бар</a></li>
+							<li>Глинтвейн-бар</li>
 						</ul>
 					</div>
-					<div class="banner__title">Глинтвейн бар — это не просто согревающие коктейли, но и зимнее настроение. Идеально для праздников и будней в холодное время года.</div>
-					<div class="banner__text">ГЛИНТВЕЙН-БАР</div>
-					<a href="" class="banner__button button button_normal">Заказать</a>
+					<div class="banner__title">ГЛИНТВЕЙН-БАР</div>
+					<div class="banner__text">Глинтвейн бар — это не просто согревающие коктейли, но и зимнее настроение. Идеально для праздников и будней в холодное время года.</div>
+					<a data-fancybox data-src="#popup-order" href="javascript:;" class="banner__button button button_normal">Заказать</a>
 				</div>
 			</div>
 		</div>
@@ -134,7 +162,7 @@
 								<li>Бармен шоу + интерактив с гостями</li>
 								<li>Пирамида из шампанского 35 бокалов + сироп + украшение + сухой лед (эффект дыма)</li>
 							</div>
-							<div class="tariffs__button button button_normal">ЗАКАЗАТЬ</div>
+							<a data-fancybox data-src="#popup-silver" href="javascript:;" class="tariffs__button button button_big">ЗАКАЗАТЬ</a>
 						</div>
 					</div>
 					<div class="tariffs__item col_line">
@@ -150,7 +178,7 @@
 								<li>Бармен шоу + интерактив с гостями</li>
 								<li>Пирамида из шампанского 56 бокалов + сироп + украшение + сухой лед (эффект дыма)</li>
 							</div>
-							<div class="tariffs__button button button_normal">ЗАКАЗАТЬ</div>
+							<a data-fancybox data-src="#popup-gold" href="javascript:;" class="tariffs__button button button_big">ЗАКАЗАТЬ</a>
 						</div>
 					</div>
 					<div class="tariffs__item col_line">
@@ -166,63 +194,63 @@
 								<li>Бармен шоу + интерактив с гостями</li>
 								<li>Пирамида из шампанского 84 бокалов + сироп + украшение + сухой лед (эффект дыма)</li>
 							</div>
-							<div class="tariffs__button button button_normal">ЗАКАЗАТЬ</div>
+							<a data-fancybox data-src="#popup-platinum" href="javascript:;" class="tariffs__button button button_big">ЗАКАЗАТЬ</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="bar-list bg">
-			<div class="bar-list__title title title-bg">ВЫЕЗДНОЙ БАР НА МЕРОПРИЯТИЕ</div>
-			<div class="bar-list__list">
-				<ul>
-					<li>Мобильный бар</li>
-					<li>Глинтвейн-бар</li>
-					<li>Смузи бар</li>
-					<li>Молекулярный бар</li>
-					<li>Luxury бар</li>
-					<li>CRIO бар</li>
-					<li>Кальян бар</li>
-					<li>Фреш бар</li>
-					<li>Кофейный бар</li>
-					<li>Русский бар</li>
-					<li>Чайный бар</li>
-					<li>ICE бар</li>
-					<li>Bubble tea бар</li>
-					<li>Детский бар</li>
-					<li>Китайский чайный бар</li>
-					<li>Новогодний бар</li>
-					<li>Пивной бар</li>
-					<li>Кислородный бар</li>
-					<li>Нео-бар</li>
-					<li>Молочный бар</li>
-					<li>Пунш бар</li>
-					<li>Десерт бар</li>
-					<li>Мохито паб </li>
-					<li>Lemonade бар</li>
-				</ul>
+			<div class="container">
+				<div class="bar-list__title title title-bg"><span>ВЫЕЗДНОЙ БАР НА МЕРОПРИЯТИЕ</span></div>
+				<div class="bar-list__list">
+					<ul>
+						<li><a href="">Мобильный бар</a></li>
+						<li><a href="">Глинтвейн-бар</a></li>
+						<li><a href="">Смузи бар</a></li>
+						<li><a href="">Молекулярный бар</a></li>
+						<li><a href="">Luxury бар</a></li>
+						<li><a href="">CRIO бар</a></li>
+						<li><a href="">Кальян бар</a></li>
+						<li><a href="">Фреш бар</a></li>
+						<li><a href="">Кофейный бар</a></li>
+						<li><a href="">Русский бар</a></li>
+						<li><a href="">Чайный бар</a></li>
+						<li><a href="">ICE бар</a></li>
+						<li><a href="">Bubble tea бар</a></li>
+						<li><a href="">Детский бар</a></li>
+						<li><a href="">Китайский чайный бар</a></li>
+						<li><a href="">Новогодний бар</a></li>
+						<li><a href="">Пивной бар</a></li>
+						<li><a href="">Кислородный бар</a></li>
+						<li><a href="">Нео-бар</a></li>
+						<li><a href="">Молочный бар</a></li>
+						<li><a href="">Пунш бар</a></li>
+						<li><a href="">Десерт бар</a></li>
+						<li><a href="">Мохито паб </a></li>
+						<li><a href="">Lemonade бар</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div class="sub">
-			<div class="container row">
-				<div class="sub__img col"></div>
-				<div class="sub__wrap col">
-					<div class="sub__title">Будьте в курсе уникальных предложений от BarKing</div>
-					<div class="sub__form">
-						<input type="text" class="sub__input input input-border-no" placeholder="e-mail">
-						<button class="sub__button button button_big">подписаться</button>
-						<div class="sub__desc">* Мы не передаем данные третьим лицам</div>
-					</div>
+		<div class="sub row">
+			<div class="sub__img bg col"></div>
+			<div class="sub__wrap col">
+				<div class="sub__title">Будьте в курсе уникальных предложений от BarKing</div>
+				<div class="sub__form">
+					<input type="text" class="sub__input input input-border-no" placeholder="e-mail">
+					<button class="sub__button button button_big">подписаться</button>
+					<div class="sub__desc">* Мы не передаем данные третьим лицам</div>
 				</div>
 			</div>
 		</div>
 		<div class="service">
 			<div class="container row">
-				<div class="services__content col">
+				<div class="service__content col">
 					<div class="service__text">В глинтвейн-баре мы готовим горячие алкогольные напитки на основе вина и пряностей. Вместе они оказывают согревающий эффект и борются с посудой. Если скоро корпоратив, а сотрудники подхватили грипп, глинтвейн-бар — идеальное решение.</div>
 					<div class="service__desc">
 						<div class="service__desc-title">КАК ЭТО БУДЕТ</div>
-						<div class="service__desc-list row">
+						<div class="service__desc-list row_line">
 							<div class="service__desc-item col_line">
 								<ul>
 									<li>Мы создаем уникальное глинтвейн-меню.</li>
@@ -242,15 +270,15 @@
 						</div>
 					</div>
 					<div class="service__advantages advantages">
-						<div class="advantages__title title title-bg">ПРЕИМУЩЕСТВА:</div>
+						<div class="advantages__title title title-bg"><span>ПРЕИМУЩЕСТВА:</span></div>
 						<div class="advantages__list row_line">
 							<div class="advantages__item col_line">
-								<div class="advantages__subtitle"></div>Универсальность
-								<div class="advantages__text">Подойдет для мероприятий в помещении и на открытом воздухе.</div>
+								<div class="advantages__subtitle">Универсальность</div>
+								<div class="advantages__text">Подойдет для мероприятий в <br>помещении и на открытом воздухе.</div>
 							</div>
 							<div class="advantages__item col_line">
 								<div class="advantages__subtitle">Всё в одном месте</div>
-								<div class="advantages__text">Стойка, посуда и оборудование — все включено в стоимость.</div>
+								<div class="advantages__text">Стойка, посуда и оборудование — все <br>включено в стоимость.</div>
 							</div>
 							<div class="advantages__item col_line">
 								<div class="advantages__subtitle">Стоимость</div>
@@ -258,49 +286,49 @@
 							</div>
 							<div class="advantages__item col_line">
 								<div class="advantages__subtitle">Атмосфера</div>
-								<div class="advantages__text">Глинтвейн поможет создать атмосферу зимнего уюта на новогодних корпоративах.</div>
+								<div class="advantages__text">Глинтвейн поможет создать <br>атмосферу зимнего уюта на <br>новогодних корпоративах.</div>
 							</div>
 							<div class="advantages__item col_line">
 								<div class="advantages__subtitle">Скорость</div>
-								<div class="advantages__text">Стойка устанавливается от 20 до 60 минут</div>
+								<div class="advantages__text">Стойка устанавливается от <br>20 до 60 минут</div>
 							</div>
 							<div class="advantages__item col_line">
 								<div class="advantages__subtitle">Прозрачность цены</div>
-								<div class="advantages__text">Формируем четкую смету на выездной бар, в которой отражена стоимость каждого коктейля.</div>
+								<div class="advantages__text">Формируем четкую смету на выездной бар, в <br>которой отражена стоимость каждого коктейля.</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="services__nav col">
-					<div class="services__nav-title">ВИДЫ БАРОВ</div>
-					<div class="services__nav-list">
+				<div class="service__nav col">
+					<div class="service__nav-title">ВИДЫ БАРОВ</div>
+					<div class="service__nav-list">
 						<ul>
-							<li>Мобильный бар</li>
-							<li>Глинтвейн-бар</li>
-							<li>Смузи бар</li>
-							<li>Молекулярный бар</li>
-							<li>Luxury бар</li>
-							<li>CRIO бар</li>
-							<li>Кальян бар</li>
-							<li>Фреш бар</li>
-							<li>Кофейный бар</li>
-							<li>Русский бар</li>
-							<li>Чайный бар</li>
-							<li>ICE бар</li>
-							<li>Bubble tea бар</li>
-							<li>Детский бар</li>
-							<li>Китайский чайный бар</li>
-							<li>Новогодний бар</li>
-							<li>Пивной бар</li>
-							<li>Кислородный бар</li>
-							<li>Нео-бар</li>
-							<li>Молочный бар</li>
-							<li>Пунш бар</li>
-							<li>Десерт бар</li>
-							<li>Мохито паб</li>
-							<li>Lemonade бар</li>
-							<li>Lady bar</li>
-							<li>Детокс-бар</li>
+							<li><a href="">Мобильный бар</a></li>
+							<li><a href="">Глинтвейн-бар</a></li>
+							<li><a href="">Смузи бар</a></li>
+							<li><a href="">Молекулярный бар</a></li>
+							<li><a href="">Luxury бар</a></li>
+							<li><a href="">CRIO бар</a></li>
+							<li><a href="">Кальян бар</a></li>
+							<li><a href="">Фреш бар</a></li>
+							<li><a href="">Кофейный бар</a></li>
+							<li><a href="">Русский бар</a></li>
+							<li><a href="">Чайный бар</a></li>
+							<li><a href="">ICE бар</a></li>
+							<li><a href="">Bubble tea бар</a></li>
+							<li><a href="">Детский бар</a></li>
+							<li><a href="">Китайский чайный бар</a></li>
+							<li><a href="">Новогодний бар</a></li>
+							<li><a href="">Пивной бар</a></li>
+							<li><a href="">Кислородный бар</a></li>
+							<li><a href="">Нео-бар</a></li>
+							<li><a href="">Молочный бар</a></li>
+							<li><a href="">Пунш бар</a></li>
+							<li><a href="">Десерт бар</a></li>
+							<li><a href="">Мохито паб</a></li>
+							<li><a href="">Lemonade бар</a></li>
+							<li><a href="">Lady bar</a></li>
+							<li><a href="">Детокс-бар</a></li>
 						</ul>
 					</div>
 				</div>
@@ -329,56 +357,56 @@
 				</div>
 			</div>
 		</div>
-		<div class="consultation">
-			<div class="container row">
-				<div class="consultation__wrap col">
-					<div class="consultation__title">Получите бесплатную консультацию по услуге</div>
-					<div class="consultation__form">
-						<input type="text" class="consultation__input input input-border-no" placeholder="Телефон или e-mail">
-						<button class="consultation__button button button_big">подписаться</button>
-						<div class="consultation__desc row_line">
-							<div class="consultation__desc-item col_item">
-								<p>Москва:</p>
-								<p><a href="+74953746162">+7 (495) 374-61-62</a></p>
-							</div>
-							<div class="consultation__desc-item col_item">
-								<p>Санкт-Петербург:</p>
-								<p><a href="+78124381214">+7 (812) 438-12-14</a></p>
-							</div>
+		<div class="consultation row">
+			<div class="consultation__wrap col">
+				<div class="consultation__title">Получите бесплатную консультацию по услуге</div>
+				<div class="consultation__form">
+					<input type="text" class="consultation__input input input-border-no" placeholder="Телефон или e-mail">
+					<button class="consultation__button button button_big">подписаться</button>
+					<div class="consultation__desc row_line">
+						<div class="consultation__desc-item col_line">
+							<p>Москва:</p>
+							<p><a href="+74953746162">+7 (495) 374-61-62</a></p>
+						</div>
+						<div class="consultation__desc-item col_line">
+							<p>Санкт-Петербург:</p>
+							<p><a href="+78124381214">+7 (812) 438-12-14</a></p>
 						</div>
 					</div>
 				</div>
-				<div class="consultation__img col"></div>
+			</div>
+			<div class="consultation__img bg col"></div>	
+		</div>
+		<div class="gallery">
+			<div class="container">
+			<div class="gallery__title title title-labels"><span>ФОТО И ВИДЕООТЧЕТЫ</span> <p>ВЫЕЗДНОГО МОБИЛЬНОГО БАРА</p></div>
+			<div class="gallery__list row_line">
+				<div class="gallery__item col_line"><a href="upload/gallery/1.png" data-fancybox="gallery"><img src="upload/gallery/1.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/2.png" data-fancybox="gallery"><img src="upload/gallery/2.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/3.png" data-fancybox="gallery"><img src="upload/gallery/3.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/4.png" data-fancybox="gallery"><img src="upload/gallery/4.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/5.png" data-fancybox="gallery"><img src="upload/gallery/5.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/6.png" data-fancybox="gallery"><img src="upload/gallery/6.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/7.png" data-fancybox="gallery"><img src="upload/gallery/7.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/8.png" data-fancybox="gallery"><img src="upload/gallery/8.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/9.png" data-fancybox="gallery"><img src="upload/gallery/9.png" alt=""></a></div>
+				<div class="gallery__item col_line"><a href="upload/gallery/10.png" data-fancybox="gallery"><img src="upload/gallery/10.png" alt=""></a></div>
+			</div>
+			<div class="pagination">
+				<ul>
+					<li><a href=""><i class="icon icon-arrow-left"></i></a></li>
+					<li><a href="">1</a></li>
+					<li class="selected"><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href=""><i class="icon icon-arrow-right"></i></a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="page">
-			<div class="gallery">
-				<div class="container">
-				<div class="gallery__title title title-labels">ФОТО И ВИДЕООТЧЕТЫ ВЫЕЗДНОГО МОБИЛЬНОГО БАРА</div>
-				<div class="gallery__list row_line">
-					<div class="gallery__item col_item"><img src="upload/gallery/1.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/2.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/3.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/4.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/5.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/6.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/7.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/8.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/9.png" alt=""></div>
-					<div class="gallery__item col_item"><img src="upload/gallery/10.png" alt=""></div>
-				</div>
-				<div class="pagination">
-					<ul>
-						<li><a href=""><i class="icon icon-arrow-left"></i></a></li>
-						<li><a href="">1</a></li>
-						<li><a href="">2</a></li>
-						<li><a href="">3</a></li>
-						<li><a href="">4</a></li>
-						<li><a href="">5</a></li>
-						<li><a href=""><i class="icon icon-arrow-right"></i></a></li>
-					</ul>
-				</div>
-			</div>
+		<div class="page container">
+			<div class="page__title title title-labels"><span>Контакты</span></div>
+			<div class="page__wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut vero quo illum modi recusandae quidem delectus, quos adipisci totam impedit, porro eius reiciendis inventore at ratione voluptates fuga sit laborum cupiditate! Provident qui culpa ut est porro. A, consequatur minima dolore assumenda in. Minima assumenda iusto quae voluptatem voluptate, illum, architecto veniam obcaecati earum inventore rem, maiores non, a sequi quo. Molestias necessitatibus dolor optio esse eos porro excepturi expedita illum deserunt iusto nesciunt sint placeat quo eaque accusantium voluptatibus hic, recusandae nostrum ipsum. Obcaecati, aspernatur consequatur unde. Asperiores ipsa, eos minus perspiciatis blanditiis enim, consequuntur soluta modi. Dolorem!</div>
 		</div>
 	</main>
 	<footer class="footer">
@@ -387,19 +415,19 @@
 				<div class="footer__item col_line">
 					<div class="footer__icon"><i class="icon icon-coctail-white"></i></div>
 					<div class="footer__title">Работа на выставках</div>
-					<div class="footer__text">Ваш стенд заметят, запомнят и испробуют!</div>
+					<div class="footer__text">Ваш стенд заметят, запомнят <br>и испробуют!</div>
 					<a href="" class="footer__button button button_transparent">Ознакомиться с услугой</a>
 				</div>
 				<div class="footer__item col_line">
 					<div class="footer__icon"><i class="icon icon-anketa"></i></div>
 					<div class="footer__title">Порядок оказания услуг</div>
-					<div class="footer__text">Узнайте как мы работаем с нашими клиентами</div>
+					<div class="footer__text">Узнайте как мы работаем с <br>нашими клиентами</div>
 					<a href="" class="footer__button button button_transparent">Узнать этапы работы</a>
 				</div>
 				<div class="footer__item col_line">
 					<div class="footer__icon"><i class="icon icon-flipchart"></i></div>
 					<div class="footer__title">Презентация Bar-Street</div>
-					<div class="footer__text">Коротко, ясно о нас и наших услугах</div>
+					<div class="footer__text">Коротко, ясно о нас <br>и наших услугах</div>
 					<a href="" class="footer__button button button_transparent">Скачать PDF</a>
 				</div>
 				<div class="footer__item col_line">
@@ -416,7 +444,7 @@
 					<p>Адрес</p>
 					<p>ул. Клары Цеткин д.4</p>
 				</div>
-				<div class="footer__copy col">
+				<div class="footer__copy right col">
 					<p>© 2017 Bar-street.ru</p>
 					<p>Все права защищены.</p>
 				</div>

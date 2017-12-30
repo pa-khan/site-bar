@@ -6,19 +6,19 @@
 
 .icon-arrow-left {
   background-image: url(../../img/sprite.png);
-  background-position: -282px -203px;
+  background-position: -331px -121px;
   width: 8px;
   height: 16px; }
 
 .icon-arrow-right {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -219px;
+  background-position: -332px -103px;
   width: 10px;
   height: 17px; }
 
 .icon-check {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -182px;
+  background-position: -314px -82px;
   width: 27px;
   height: 21px; }
 
@@ -36,7 +36,7 @@
 
 .icon-cross-button {
   background-image: url(../../img/sprite.png);
-  background-position: -292px -182px;
+  background-position: -314px -103px;
   width: 18px;
   height: 18px; }
 
@@ -60,19 +60,19 @@
 
 .icon-gold {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -149px;
+  background-position: -265px -165px;
   width: 49px;
   height: 33px; }
 
 .icon-label-left {
   background-image: url(../../img/sprite.png);
-  background-position: -63px -174px;
+  background-position: -112px -174px;
   width: 69px;
   height: 18px; }
 
 .icon-label-right {
   background-image: url(../../img/sprite.png);
-  background-position: -132px -174px;
+  background-position: -181px -174px;
   width: 69px;
   height: 18px; }
 
@@ -90,18 +90,30 @@
 
 .icon-platinum {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -116px;
+  background-position: -265px -198px;
   width: 49px;
   height: 33px; }
 
 .icon-silver {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -83px;
+  background-position: -63px -174px;
   width: 49px;
   height: 33px; }
 
 .icon-star {
   background-image: url(../../img/sprite.png);
-  background-position: -265px -203px;
+  background-position: -314px -121px;
   width: 17px;
   height: 16px; }
+
+.icon-triangles-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -314px 0px;
+  width: 31px;
+  height: 82px; }
+
+.icon-triangles-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -265px -83px;
+  width: 32px;
+  height: 82px; }

@@ -1,10 +1,156 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1370px) {
   .container {
-    width: 950px; } }
+    width: 950px; }
+  .popup_tariff {
+    width: 950px; }
+  .panel__nav {
+    margin-left: 75px; }
+  .tariffs__list {
+    margin-left: -10px;
+    margin-right: -10px; }
+  .tariffs__item {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 290px; }
+  .tariffs__data {
+    padding-left: 0; }
+    .tariffs__data li {
+      font-size: 19px;
+      margin-bottom: 15px; }
+  .bar-list__list li {
+    width: 33.3333%; }
+  .sub, .consultation {
+    background-color: #660066; }
+    .sub__img, .consultation__img {
+      display: none; }
+    .sub__wrap, .consultation__wrap {
+      float: none;
+      width: 950px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      min-height: 1px;
+      padding-bottom: 30px; }
+    .sub__title, .consultation__title {
+      text-align: center;
+      padding-top: 20px; }
+    .sub__title, .sub__form, .sub__desc, .consultation__title, .consultation__form, .consultation__desc {
+      padding-left: 0;
+      width: 100%; }
+    .sub__form, .sub__desc, .consultation__form, .consultation__desc {
+      max-width: 350px;
+      margin-left: auto;
+      margin-right: auto; }
+  .service {
+    background: #210334; }
+    .service__content, .service__nav {
+      width: 100%; }
+    .service__nav {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-left: 0; }
+      .service__nav-title {
+        text-align: center;
+        margin-bottom: 30px; }
+      .service__nav-list {
+        margin-left: 70px; }
+      .service__nav li {
+        width: 33.3333%;
+        display: inline-block;
+        vertical-align: top; }
+  .advantages__item br {
+    display: none; }
+  .advantages__text {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+  .work {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .work__item {
+      text-align: center; }
+    .work__icon {
+      margin-bottom: 10px; }
+    .work__icon, .work__text {
+      width: 100%; }
+    .work__text {
+      padding-left: 0; }
+  .footer__list {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+  .footer__item {
+    text-align: center; }
+  .footer__icon, .footer__title, .footer__text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .footer__title {
+    font-size: 18px;
+    margin-bottom: 7px; }
+  .footer__text {
+    line-height: 22px; }
+    .footer__text br {
+      display: none; }
+  .footer__copy {
+    width: auto; } }
 
 @media screen and (max-width: 970px) {
   .container {
-    width: 750px; } }
+    width: 750px; }
+  .panel__nav {
+    margin-left: 28px; }
+    .panel__nav li {
+      margin-right: 25px; }
+  .banner_main .banner__title {
+    padding-top: 120px; }
+  .banner_service {
+    padding-top: 120px; }
+  .title-labels {
+    font-size: 34px; }
+  .tariffs {
+    padding-top: 30px; }
+    .tariffs__title {
+      margin-bottom: 30px; }
+    .tariffs__list {
+      margin-left: 0;
+      margin-right: 0; }
+    .tariffs__item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 20px; }
+      .tariffs__item:last-of-type {
+        margin-bottom: 0; }
+    .tariffs__wrap {
+      min-height: 1px; }
+  .bar-list {
+    padding-top: 30px;
+    padding-bottom: 25px; }
+    .bar-list__title {
+      margin-bottom: 25px; }
+    .bar-list__list li {
+      width: 50%;
+      padding-left: 30px;
+      margin-bottom: 15px; }
+      .bar-list__list li:before {
+        left: 0; }
+  .sub__wrap, .consultation__wrap {
+    float: none;
+    width: 750px; }
+  .work {
+    padding-bottom: 0; }
+    .work__item {
+      width: 50%;
+      margin-bottom: 30px;
+      padding-left: 0 !important; }
+  .footer__list {
+    padding-bottom: 15px; }
+  .footer__item {
+    width: 50%;
+    margin-bottom: 25px; }
+  .footer__icon, .footer__title, .footer__text {
+    padding-left: 0;
+    padding-right: 0; } }
 
 @media screen and (max-width: 767px) {
   .container {
